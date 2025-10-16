@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BasquetStore</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  </head>
+  
+    <style>
+      body {
+        background: linear-gradient(to right, rgb(7, 195, 252), rgb(255, 208, 0));
+      }
+
+      img, video {
+        border: 7px solid rgb(28, 2, 121);
+      }
+      #menu {
+        background-color: rgb(2, 124, 223);
+      }
+
+      #menu li > a {
+        font-size: 22px;
+        font-weight: bold;
+        color: #000000 !important;
+        
+      }
+      #menu a > span{
+        font-size: 35px;
+        color: rgb(236, 201, 1) !important;
+      }
+
+      #menu form > button {
+        font-size: 18px;
+        font-weight: bold;
+        color: #000000;
+        background-color: rgb(236, 193, 1);
+        border: 0px;
+      }
+      #marcas img {
+        border: 8px solid #0081cc; 
+        border-radius: 12px;
+      }
+      
+    </style>
+
+
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg p-3" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="text-primary fs-50 fw-bold"> Store </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#nuestra-agencia"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#marcas">Marcas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#deportes">Deportes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hombres">Hombres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mujeres">Mujeres</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="text" placeholder="Productos" aria-label="text"/>
+            <button class="btn btn-primary" type="button">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <body>
+
+    <section class="w-50 mx-auto text-left pt-5" id="marcas">
+        <p class="p-3 fs-4">En <span class="text-primary" style="color: rgb(255, 187, 0) !important;"><b>BasquetStore</b></span> con el fin de darte un gran variedad de productos, tenemos 
+          asociación con mas de 50 marcas deportivas, reconocidas a nivel mundial:
+        </p>
+    </section>
+  <!--Marcas-->
+      <div class="row w-75 mx-auto my-5 servicio-fila" >
+        <h1 class="p-3 fs-20  border-1">Marcas</h1>
+        <div class="card" style="width: 18rem; background-color: #0081cc;">
+          <img src="Archivos/marcas1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ropa y Calzado</h5>
+            <p class="card-text">
+              Adidas<br> 
+              Nike<br> 
+              Puma<br> 
+              Reebok<br> 
+              Asics<br> 
+              Jordan<br> 
+              Fila<br> 
+              Converse<br></p>
+            <a href="#" class="btn btn-primary" style="background-color: rgba(252, 185, 1, 0.993);">Ir</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; background-color: #0081cc;">
+          <img src="Archivos/marcas2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Outdoor/Aventura</h5>
+            <p class="card-text">
+              The North Face<br> 
+              Columbia<br> 
+              Patagonia<br></p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgba(252, 185, 1, 0.993);">Ir</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; background-color: #0081cc;">
+          <img src="Archivos/marcas3.jpg"  width="260" height="180" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Balones y Pelotas</h5>
+            <p class="card-text">
+              Wilson<br> 
+              Spalding<br> 
+              Molten<br>
+              Mikasa<br></p>
+              <br>
+              <br>
+              <br>
+              <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgba(252, 185, 1, 0.993);">Ir</a>
+          </div>
+        </div>
+        <div class="card" style="width: 17rem; background-color: #0081cc;">
+          <img src="Archivos/marcas4.jpg"  width="260" height="180" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Boxeo/Artes marciales</h5>
+            <p class="card-text">
+              Everlast<br> 
+              Venum<br> 
+              Cleto Reyes<br></p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgba(252, 185, 1, 0.993);">Ir</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; background-color: #0081cc;">
+          <img src="Archivos/marcas5.jpeg"  width="260" height="180" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Natacion y Ciclismo</h5>
+            <p class="card-text">
+              Speedo<br> 
+              Arena<br> 
+              Trek<br>
+              Specialized<br>
+              Giant<br></p>
+              <br>
+              <br>
+              <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgba(252, 185, 1, 0.993);">Ir</a>
+          </div>
+        </div>
+
+        <!-- Hombres -->
+    <section class="container-fluid" id="Hombres">
+      
+      <div class="row w-75 mx-auto my-5 servicio-fila">
+        <h1 class="p-3 fs-2 border-top border-3">Hombres</h1>
+        <p class="p-3 fs-4">Estos son los productos para hombres:</p>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+          <img src="Archivos/pro1.jfif" alt="Misión" width="200" height="200">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Balón de fútbol Adidas Tiro</h3>
+
+              <B>   $120.000 COP </B>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
